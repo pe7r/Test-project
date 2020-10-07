@@ -1,4 +1,4 @@
-import algorithmsSlice from "./slices/algorithmsSlice";
+import algorithmsSlice from "./slices/algorithms/algorithmsSlice";
 import { combineReducers } from "redux";
 import { configureStore } from "@reduxjs/toolkit";
 

@@ -1,4 +1,4 @@
-import { IAlgorithmType } from "../../types";
+import { IAlgorithmType } from "../../../types";
 
 interface InitialStore {
     algorithms: IAlgorithmType[],

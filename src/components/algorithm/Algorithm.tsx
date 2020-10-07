@@ -5,7 +5,7 @@ import { IAlgorithmType } from '../../types';
 import RecommendationsList from '../recommendationsList/RecommendationsList';
 import ActionIconButton from '../buttons/action-icon-button/ActionIconButton';
 import { useDispatch, useSelector } from 'react-redux';
-import { addOneAlgRecs } from '../../store/slices/algorithmsSlice';
+import { addOneAlgRecs } from '../../store/slices/algorithms/algorithmsSlice';
 import { RootState } from '../../store';
 
 export type TProps = {

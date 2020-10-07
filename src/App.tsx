@@ -6,7 +6,7 @@ import RecommendationsList from './components/recommendationsList/Recommendation
 import ActionIconButton from './components/buttons/action-icon-button/ActionIconButton';
 import { useSelector, useDispatch } from 'react-redux';
 import {RootState} from './store/index'
-import {addAllToSelected} from './store/slices/algorithmsSlice'
+import {addAllToSelected} from './store/slices/algorithms/algorithmsSlice'
 import { IRecommendationType, IAlgorithmType } from './types';
 import clsx from 'clsx';
 import ActionButton from './components/buttons/action-button/ActionButton';

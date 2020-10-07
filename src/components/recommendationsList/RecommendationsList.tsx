@@ -3,7 +3,7 @@ import Recommendation from '../recommendation/Recommendation'
 import { Box } from '@material-ui/core'
 import { useDispatch } from 'react-redux'
 import { IRecommendationType } from '../../types'
-import { removeRecFromSelected, addRecToSelected } from '../../store/slices/algorithmsSlice'
+import { removeRecFromSelected, addRecToSelected } from '../../store/slices/algorithms/algorithmsSlice'
 
 type TProps = {
     recommendations: IRecommendationType[],
